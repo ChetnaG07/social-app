@@ -9,7 +9,6 @@ import { useNavigate, Navigate } from "react-router-dom";
 import { login } from "../redux/actions/userActions";
 
 import { AiFillCloseCircle } from "react-icons/ai";
-import SocialLogin from "./SocialLogin";
 
 const validationSchema = yup.object({
   email: yup
@@ -108,9 +107,6 @@ function LoginForm() {
               </button>
             </div>
           </form>
-          {/* <div className="soical-login-sec">
-						<SocialLogin />
-					</div> */}
         </div>
       </div>
     </div>
