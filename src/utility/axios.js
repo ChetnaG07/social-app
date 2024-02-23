@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const instance  = axios.create({
-    baseURL:'http://localhost:5000'
-})
+const instance = axios.create({
+  baseURL: "https://rest-api-j55j.onrender.com/",
+});
 
-export default instance
+export default instance;
